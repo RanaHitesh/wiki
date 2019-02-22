@@ -2,11 +2,6 @@ body{
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5rem;
-	background-position: 50% 50%;
-	background-image: url(wrap.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed ;
 }
 
 .wrapper{
@@ -22,14 +17,14 @@ h1{
 h3{
 	width: 80%;
 	font-family: 'Montserrat', sans-serif;
-	margin: 0;
+	margin: 0 auto;
 	text-align: center;	
 }
 
 
 .top-container{
 	width: 100%;
-	background-color: #c9d6df;
+	background-color: #a5b1c2;
 	overflow: hidden;
 }
 
@@ -54,7 +49,7 @@ h3{
 }
 
 hr{
-	border: dotted white 7px;
+	border: dotted #CAD3C8 7px;
 	border-bottom: none;
 	width:5%;
 	margin:25px auto 25px auto;
@@ -93,16 +88,111 @@ hr{
 	background-attachment: fixed ;
 }
 
+.about{
+	text-align: center;
+}
+
+.about h3{
+	width: 100%;
+}
+
+.mani{
+	box-sizing: border-box;
+	background: #c6cfff;
+}
+
+.mani img{
+	border-radius: 5%;
+	border: 1px solid #f4f3f3;
+}
+
+.m1text{
+	width:78%;
+	float:right;
+}
+
+.m1 img{
+	width:20%;
+	float:left;
+}
+
+.m1{
+	background-color: #f3f8ff;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding:20px 10px;
+}
 
 
+.m2 img{
+	float:right;
+	margin-left: 20px;
+}
 
+.m2{
+	overflow: hidden;
+	padding:20px 10px;
+}
 
+.m3 img{
+	float:left;
+	margin-right: 20px;
+}
 
+.m3{
+	overflow: hidden;
+	padding:20px 10px;
+}
 
+.m4 img{
+	float:right;
+	margin-left: 20px;
+}
 
+.m4{
+	overflow: hidden;
+	padding:20px 10px;
+}
 
+.m5 img{
+	float:left;
+	margin-right: 20px;
+}
 
+.m5{
+	overflow: hidden;
+	padding:20px 10px;
+}
 
+.m6 img{
+	float:right;
+	margin-left: 20px;
+}
+
+.m6{
+	overflow: hidden;
+	padding:20px 10px;
+}
+
+.m7 img{
+	float:left;
+	margin-right: 20px;
+}
+
+.m7{
+	overflow: hidden;
+	padding:20px 10px;
+}
+
+.m8 img{
+	float:right;
+	margin-left: 20px;
+}
+
+.m8{
+	overflow: hidden;
+	padding:20px 10px;
+}
 
 
 
