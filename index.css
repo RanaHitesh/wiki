@@ -4,13 +4,8 @@ body{
 	font-size: 1.5rem;
 }
 
-.wrapper{
-	
-	margin: 0 auto;
-}
-
 h1{
-	margin-top: 100px ;
+	margin-top: 40px ;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,19 +17,24 @@ h3{
 }
 
 
-.top-container{
+.top-container{ 
+	box-sizing: border-box;
 	width: 100%;
 	background-color: #a5b1c2;
-	overflow: hidden;
+	display: inline-block;
 }
 
 .top-text{
-	box-sizing: border-box;
 	width: 50%;
 	float:right;
 	text-align: center;
+	margin-top:50px;
 }
 
+.mantra{
+	font-family: 'Calligraffitti', cursive;
+	font-weight:600;
+}
 
 .top-img{
 	box-sizing: border-box;
@@ -46,9 +46,12 @@ h3{
 
 .top-img img{
 	width:50%;
+	margin:auto;
+	margin-right:100px;
 }
 
 hr{
+	clear: both;
 	border: dotted #CAD3C8 7px;
 	border-bottom: none;
 	width:5%;
@@ -56,9 +59,10 @@ hr{
 }
 
 .by{
-	float:right;
+	position: absolute;
 	color:#1e2022;
 	font-style: oblique;
+	right:10px;
 }
 
 .wrap{
@@ -74,7 +78,6 @@ hr{
 	top:150px;
 	margin: 0 auto;
 	margin-left: 0;
-	
 }
 
 
@@ -86,9 +89,23 @@ hr{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed ;
+	display: inline-block;
+}
+
+.about h3::before{
+	content:" ";
+	border:2px solid #129cf3;
+	border-bottom: none;
+	border-left: none;
+	border-right:none;
+	position:absolute;
+	top:40px;
+	width:150px;
+	height:1px;
 }
 
 .about{
+	position: relative;
 	text-align: center;
 }
 
@@ -99,6 +116,8 @@ hr{
 .mani{
 	box-sizing: border-box;
 	background: #c6cfff;
+	font-size:1.2rem;
+	line-height: 1.8rem;
 }
 
 .mani img{
@@ -106,108 +125,46 @@ hr{
 	border: 1px solid #f4f3f3;
 }
 
-.m1text{
+.mani h3{
+	width:100%;
+	text-align: left;
+}
+
+
+/* -----m1----*/
+.m1text, .m3text, .m5text, .m7text{
 	width:78%;
 	float:right;
 }
 
-.m1 img{
+.m1 img, .m3 img, .m5 img, .m7 img{
 	width:20%;
 	float:left;
 }
 
-.m1{
+.m1, .m3, .m5, .m7{
 	background-color: #f3f8ff;
 	box-sizing: border-box;
 	overflow: hidden;
 	padding:20px 10px;
 }
 
-
-.m2 img{
-	float:right;
-	margin-left: 20px;
-}
-
-.m2{
-	overflow: hidden;
-	padding:20px 10px;
-}
-
-.m3 img{
+/* -----m2----*/
+.m2text, .m4text, .m6text, .m8text{
+	width:78%;
 	float:left;
-	margin-right: 20px;
+	position: absolute;
 }
 
-.m3{
-	overflow: hidden;
-	padding:20px 10px;
-}
-
-.m4 img{
+.m2 img, .m4 img, .m6 img, .m8 img{
+	width:20%;
 	float:right;
-	margin-left: 20px;
 }
 
-.m4{
+
+.m2, .m4, .m6, .m8{
+	box-sizing: border-box;
 	overflow: hidden;
 	padding:20px 10px;
 }
-
-.m5 img{
-	float:left;
-	margin-right: 20px;
-}
-
-.m5{
-	overflow: hidden;
-	padding:20px 10px;
-}
-
-.m6 img{
-	float:right;
-	margin-left: 20px;
-}
-
-.m6{
-	overflow: hidden;
-	padding:20px 10px;
-}
-
-.m7 img{
-	float:left;
-	margin-right: 20px;
-}
-
-.m7{
-	overflow: hidden;
-	padding:20px 10px;
-}
-
-.m8 img{
-	float:right;
-	margin-left: 20px;
-}
-
-.m8{
-	overflow: hidden;
-	padding:20px 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
